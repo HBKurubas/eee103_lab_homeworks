@@ -3,12 +3,12 @@
 void print_asterisks(int num)
 {
 	int i;
-    for (i = 0; i < num; i++)
-        printf("*");
+	for (i = 0; i < num; i++)
+		printf("*");
     printf("\n");
 }
 
-int main(void)
+int main()
 {
 	int l, i;
     printf("enter the number of lines: ");
@@ -29,7 +29,7 @@ int main(void)
     {
     	printf("%7d%8d     ", i, array[i]);
     	print_asterisks(array[i]);
-	}        
-
+	}
+	
     return 0;
 }
