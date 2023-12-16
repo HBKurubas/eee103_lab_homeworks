@@ -14,7 +14,7 @@ int main()
         printf("index %d: ", i);
         scanf("%d", &array[i]);
     }
-
+	
     if (l >= 3 && l % 2 == 1)
 	{
         int mid = l / 2;
